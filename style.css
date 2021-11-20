@@ -1,0 +1,31 @@
+*{
+    background-color: beige;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+hr{
+    border-top: 2px solid red;   
+}
+
+.centre form{
+    text-align: center;
+    padding: right 7px;
+    font-weight: bolder;
+}
+
+.click{
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.click input{
+    border-radius: 15%;
+}
+
+.click input:hover{
+    cursor: pointer;
+    color: red;
+}
