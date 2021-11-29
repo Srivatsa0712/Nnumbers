@@ -1,31 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
 *{
-    background-color: beige;
+    margin: 0%;
+
 }
 
-h1,h2{
+html{
+    background-color:#F7F7F7; 
+    /* background-color: white; */
+    /* rgb(165, 226, 228); */
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.one{
+    background-color: #28DF99;
+    color:#222;
+    height: 90px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.first{
+    margin: 10px;
+    /* padding-left: 14px; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.first:hover{
+    background-color: yellowgreen;
+    /* background-color: #28DF18; */
+}
+
+.second{
+    /* padding: 20px; */
+    margin: 10px;
     text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.second:hover{
+    background-color: yellowgreen;
+}
+
+
+.one h1{
+    padding-left: 25.5%;
+    /* margin: 200px; */
 }
 
 hr{
-    border-top: 2px solid red;   
+    border-top: 3px solid #26001B;
+}
+
+.content{
+    /* margin: 7px; */
+    color:#222;
+    line-height: 1.75;
+    padding-top: 15px;
+    /* background-color: #444; */
+    margin: 15px;
+    border-radius: 15px;
+    /* height: 65px; */
+    text-align:center;
+    font-size: 120%;
+}
+
+.centre{
+    color: #222;
+    padding-top: 15px;
+    /* background-color: #444; */
+    margin: 15px;
+    border-radius: 25px;
+}
+
+.centre h2{
+    text-align: center;
 }
 
 .centre form{
     text-align: center;
-    padding: right 7px;
-    font-weight: bolder;
+    font-weight: bold;
+}
+
+.centre input{
+ 
+
+    border-radius: 25px;
+    height: 25px;
+    background-color: #EDEEF7;
+    border-color: #28DF99;
+    text-align: center;
+    color:#222;
+    font-weight: bold;
+    
 }
 
 .click{
-    padding-top: 5px;
-    padding-left: 40px;
+    text-align: center;
+    /* background-color: mintcream; */
+    padding-left: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 }
 
 .click input{
-    border-radius: 15%;
+    background-color: rgb(80, 70, 70);
+    color: whitesmoke;
+    border-radius: 25px;
+    width: 70px;
+    height: 30px;
 }
 
 .click input:hover{
+    color: black;
+    font-weight: bold;
     cursor: pointer;
-    color: red;
+    background-color: tomato;
+    transition: 0.8s;
 }
