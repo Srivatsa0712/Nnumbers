@@ -8,5 +8,5 @@ var N= new Number(a);
 for(i=1;i<=N;i++)
 sum=sum+i;
 
-document.write("<h2>sum of 1 to "+a+" natural numbers is "+sum+" </h2>");
+alert("Sum of 1 to "+a+" natural numbers is "+sum+"");
 }
