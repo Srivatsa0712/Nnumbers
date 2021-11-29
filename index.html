@@ -8,16 +8,28 @@
     <title>Sum of N Numbers</title>
 </head>
 <body>
-    <h1>Sum of natural numbers:</h1>
+    <header class="one">
+    <div class="first">Home<i class="fas  fa-home"></i></div>
+	<div class="second">Search<i class="fas  fa-search"></i></div>
+    <h1><u>Sum of natural numbers:</u></h1>
+    </header>
     <hr>
-    <h2>How many natural number(1 to ..)?</h2>
+
+    <div class="content">
+        <p>The concept of finding the <strong> Sum</strong>  of integers is found such that first, we will find the Sum of Numbers up to <strong> 'N'</strong>  and then add all the sums to get a value which will be our desired sum. For this problem, we are given a number 'N' up to which we have to find the Sum of the sum. Let's take an example to find this sum
+
+            the formula to calculate Sum of <strong>Natural</strong>  Numbers is
+            (N*(N+1))/2)</p>
+    </div>
+    <hr>
     <div class="centre">
+        <h2><u>How many natural number(1 to ..)?</u></h2><br>
         <form name ="form" onsubmit="natsum()">
-        Number: <input name ="N" type="text">
-        <div class="click"><input type ="submit"value="Show"></div>
+        Number: <input name ="N" type="text" placeholder="5"> <br>
+       <div class="click"> <input type ="submit"value="Show"></div>
         </form>
     </div><br>
-    <hr>
+    <script src="https://kit.fontawesome.com/482c085e13.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
